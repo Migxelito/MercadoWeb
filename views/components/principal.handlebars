@@ -1,0 +1,11 @@
+
+<h1 class="text-center my-3" >Bienvenidos al mercado WEB, seleccione sus productos</h1>
+
+<div class="container my-3">
+    <div class="row p-5 ">
+        {{#each productos}}
+        <div class="col-4 p-3">{{> CardProducto productoIterado = this }}</div>
+        {{/each}}
+    </div>
+</div>
+
